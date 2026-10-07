@@ -5,6 +5,7 @@
   "build": "WebGL release, no development symbols; manual deployment",
   "seed_repair": "Hard #5 r1c3=7; owner approved 2026-10-07; 28 to 29 givens",
   "files": {
+    ".gitattributes": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "Build/Web.data": "b8fb594a91925baa97fa4ff27e4c8cf9eca6d9e7d52460d79cd0fd030711d2dc",
     "Build/Web.framework.js": "2421792983fdd2ea7b4932c79eb526c8eea058de60d7b0cef3a82a548058abd9",
@@ -12,7 +13,7 @@
     "Build/Web.wasm": "c23408ee4ffb80557a15c2574fab52e0aa30dfcd6cbd6ad2e384487ae28f6a5c",
     "index.html": "a491d225e53699b1219b22ddd1bbb41d34387bb5f62504721f1d6983f58a205c",
     "NOTICE.txt": "ae586bc29142f4f78c754adb466f033c75edf05eda27e43ca1fa9b56e66ee1d7",
-    "README.md": "7d41764b1f83407b7ef0d733171a55a4dab2b7a9ac7421d509492194da1433ee",
+    "README.md": "f104b5894d25a1734aa43f94759602042dc9fe80a81048473ae02086dd802c6b",
     "TemplateData/favicon.ico": "9c13beb90ee8f70580d52a21d5233970d1c89e71e4a34a462c22610941c3c77f",
     "TemplateData/fullscreen-button.png": "21221581673a54b8139d408d4a3f8d2b879e86827d4b6fc53b995ff7a99ee3e9",
     "TemplateData/MemoryProfiler.png": "0ce87be20d0c24ab6cb73b57de2004da261cc2a641e69319c6ae3fe11fc85483",
