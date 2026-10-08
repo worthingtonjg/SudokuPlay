@@ -1,14 +1,13 @@
-# Sudoku Win8 — Unity prototype
+# Sudoku Win8 — playable Unity port
 
-[Play in your browser](https://worthingtonjg.github.io/SudokuPlay/)
+Play: https://worthingtonjg.github.io/SudokuPlay/
 
-A foundational Unity port of Jonathan Worthington's Windows Sudoku game. Select a blank cell, then use the keypad or number keys. N toggles notes; Z undoes the last action. Includes hints, checks, pause and local browser saves.
+Compiled WebGL player only. The source repository is private. This is a foundational port of Jonathan Worthington's recovered game, built with Unity 6000.5.2f1.
 
-This repository contains compiled WebGL output only. Source is private. Releases are copied here manually after validation; source changes do not deploy automatically.
+Includes four difficulties, notes, hints, undo, pause and local save recovery; seven themes and languages; high contrast; responsive controls. Cell-first is the default. Toggle the mode button for number-first, select a digit, then tap multiple cells. Notes toggle that candidate. Mode and digit are saved.
 
-The original four difficulty levels and seed bank are retained, with one owner-approved repair: Hard seed #5 gains r1c3=7 (28 to 29 clues) so all 20 puzzles have a unique solution. That puzzle may be slightly easier.
+Keyboard: 1–9 enters/selects digits, N toggles notes, M switches entry mode, Z undoes, Delete erases. Arrows move selection; Enter/Space applies the selected digit in number-first mode. Escape closes dialogs or pauses.
 
-This is a prototype. Original themes, artwork, localization and exact Windows layout are not yet ported. Desktop browser play is tested; phone ergonomics and screen-reader accessibility remain future work. Undo does not survive reload. Local saves can be lost if browser data is cleared. No ads, analytics, accounts or cloud saves.
+All saves are browser-local. Undo lasts for the current session. No ads, analytics, accounts or cloud saves. The approved Hard #5 seed repair adds r1c3=7 for a unique solution. Physical touch hardware and translation fluency have not been fully tested.
 
-See BUILD-IDENTITY.json for the source commit and compiled-file hashes, and NOTICE.txt for notices.
-
+See NOTICE.txt for retained copyright and third-party notices; BUILD-IDENTITY.json identifies source and file hashes. Publication is manual, with no automatic deployment from private source changes.
